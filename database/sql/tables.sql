@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tasks(
+    id INTERGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    create_date TEXT NOT NULL,
+    completed INTEGER NOT NULL DEFULT 0
+)
